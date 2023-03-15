@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid black;;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+hr {
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    text-align: center;
+    padding: 10%;
+}
+
+main #formulario {
+    margin: auto;
+    text-align: left;
+    border: 1px solid rgb(222, 219, 219);
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+}
+
+main .rotulo {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+main input {
+    margin: 5px 10px 10px 0px;
+    padding: 3px;
+    width: 258px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}

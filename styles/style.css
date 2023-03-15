@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+header {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+header a {
+    position: absolute;
+    right: 30px;
+    text-decoration: none;
+}
+
+main {
+    display: block;
+}
+
+/* Menu lateral */
+
+main .menu {
+    position: absolute;
+    float: left;
+    min-width: 150px;
+    width: 18vw;
+    height: 100vh;
+    border-right: 1px solid black;
+}
+
+main li.user {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 15px;
+    background-color: rgba(128, 128, 128, 0.301);
+}
+
+main li.user p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.3rem;
+}
+
+main li, .notificacao {
+    padding: 5px 10px;
+}
+
+main .menu .pedidos {
+    background-color: #DAE8FC;
+}
+
+.menu .pad{
+    padding: 13px 10px;
+}
+
+.menu .ajuste {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Pedidos */
+
+main .conteudo {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+main .conteudo li {
+    margin: 10px;
+}
+
+.conteudo .item{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.conteudo .produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.conteudo .produto .descricao {
+    display: flex;
+}
+
+.conteudo .produto .descricao img {
+    height: 7vw;
+    min-height: 60px;
+    max-height: 90px;
+}
+
+.conteudo .produto .descricao .situacao {
+    font-weight: bold;
+}
+
+.conteudo .produto .descricao .transito {
+    color: rgb(0, 167, 0);
+}
+
+.conteudo .produto .descricao .preparacao {
+    color: rgb(183, 120, 2);
+}
+
+.conteudo .produto .descricao .entregue {
+    color: green;
+}
+
+.conteudo .produto .descricao .espec {
+    font-size: 0.8rem;
+}
+
+.conteudo .detalhes {
+    display: none;
+    text-align: center;
+}
+
+.conteudo .detalhes .progresso {
+    margin-bottom: 15px;
+}
