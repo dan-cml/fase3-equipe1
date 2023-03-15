@@ -21,6 +21,21 @@ main {
     display: block;
 }
 
+/* Tela inicial */
+
+header .container {
+	/* background-image: url('https://www.example.com/banner-background.jpg');
+	background-size: cover;
+	background-position: center; */
+}
+
+main .container {
+    text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
 /* Menu lateral */
 
 main .menu {
